@@ -58,7 +58,7 @@ COMMON_GLOBAL_CFLAGS += -DSURFACEFLINGER_FORCE_SCREEN_RELEASE
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/allwinner/elite/recovery_keys.c
 BOARD_USE_LEGACY_TOUCHSCREEN := true
 TARGET_RECOVERY_PRE_COMMAND := "echo -n boot-recovery | dd of=/dev/block/nandf count=1 conv=sync; sync;"
-TARGET_RECOVERY_INITRC := device/allwinner/elite/ramdisk/recovery_init.rc
+TARGET_RECOVERY_INITRC := device/allwinner/elite/root/recovery_init.rc
 
 # Wifi stuff
 BOARD_WIFI_VENDOR                := realtek

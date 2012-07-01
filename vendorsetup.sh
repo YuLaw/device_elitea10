@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo full_a10-eng
-add_lunch_combo full_a10-userdebug
+add_lunch_combo full_elite-eng
+add_lunch_combo full_elite-userdebug
 
